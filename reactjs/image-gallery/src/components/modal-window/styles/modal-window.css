@@ -1,0 +1,48 @@
+.modal-dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 800px;
+    max-width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .modal-header {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  .modal-container {
+    margin-top: 20px;
+    max-height: 400px;
+    overflow-y: auto; 
+  }
+  
+  .paragraph-container {
+    margin-bottom: 20px;
+  }
+  
+  .paragraph-header {
+    font-size: 20px;
+    margin-top: 0;
+  }
+  
+  .accept-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .accept-btn:hover {
+    background-color: #0056b3;
+  }
